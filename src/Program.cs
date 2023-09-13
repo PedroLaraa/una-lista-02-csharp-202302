@@ -4,49 +4,43 @@ class Program
 {
     static void Main()
     {
-        // Solicita ao usuário que insira o primeiro número
-        Console.Write("Digite o primeiro número: ");
-        
-        // Lê o primeiro número como uma string e converte para double
-        double numero1 = Convert.ToDouble(Console.ReadLine());
+      // INVOCA FUNÇÕES SEPARADAMENTE
+      // CalcularDezPorcento();
 
-        // Solicita ao usuário que insira o segundo número
-        Console.Write("Digite o segundo número: ");
-        
-        // Lê o segundo número como uma string e converte para double
-        double numero2 = Convert.ToDouble(Console.ReadLine());
-
-        // Calcula a média aritmética dos dois números
-        double media = (numero1 + numero2) / 2;
-
-        // Apresenta o resultado da média aritmética
-        Console.WriteLine($"A média dos números {numero1} e {numero2} é: {media}");
-
-        // Solicita ao usuário que insira o preço do produto
-        Console.Write("Digite o preço do produto: ");
-        
-        // Lê o preço do produto como uma string e converte para double
-        double precoProduto = Convert.ToDouble(Console.ReadLine());
-
-        // Calcula o valor do produto acrescido de 10%
-        double novoPreco = precoProduto + (precoProduto * 0.10);
-
-        // Apresenta o valor do produto com o acréscimo de 10%
-        Console.WriteLine($"O valor do produto com 10% de acréscimo é: {novoPreco:C}");
-
-        // Aguarda o usuário pressionar uma tecla para encerrar
-        Console.ReadKey();
+      ParImpar();
     }
 
-    public void calcularDezPorcento(int value) {
+    static void MediaAritmetica(double value1, double value2, double media) {
+
+      Console.Write("Digite valor 1: ");
+      value1 = Convert.ToDouble(Console.ReadLine());
+
+      Console.Write("Digite valor 2: ");
+      value2 = Convert.ToDouble(Console.ReadLine());
+
+      media = (value1 + value2) / 2;
+
+      Console.WriteLine($"A média dos números {value1} e {value2} é: {media}");
+    }
+
+    static void CalcularDezPorcento () {
       Console.Write("Digite o preço do produto: ");
 
       double inputValue = Convert.ToDouble(Console.ReadLine());
 
-      value = inputValue + (inputValue * 0.10);
+      double newValue = inputValue + (inputValue * 0.10);
 
-      return value;
+      Console.WriteLine($"O valor do produto com 10% de acréscimo é: {newValue:C}");
     }
 
-    calcularDezPorcento()
-}
+    static void ParImpar() {
+      Console.Write("Digite o número: ");
+
+      double value = Convert.ToDouble(Console.ReadLine());
+
+      string result = value > 100 ? "Maior" : "Menor";
+
+      Console.WriteLine(result);
+    }
+
+};
