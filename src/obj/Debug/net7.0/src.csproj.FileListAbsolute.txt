@@ -12,3 +12,17 @@ C:\Users\qualidade02\Desktop\Pedro\.dev\una-lista-02-csharp-202302\src\obj\Debug
 C:\Users\qualidade02\Desktop\Pedro\.dev\una-lista-02-csharp-202302\src\obj\Debug\net7.0\src.pdb
 C:\Users\qualidade02\Desktop\Pedro\.dev\una-lista-02-csharp-202302\src\obj\Debug\net7.0\src.genruntimeconfig.cache
 C:\Users\qualidade02\Desktop\Pedro\.dev\una-lista-02-csharp-202302\src\obj\Debug\net7.0\ref\src.dll
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\bin\Debug\net7.0\src.exe
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\bin\Debug\net7.0\src.deps.json
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\bin\Debug\net7.0\src.runtimeconfig.json
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\bin\Debug\net7.0\src.dll
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\bin\Debug\net7.0\src.pdb
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\obj\Debug\net7.0\src.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\obj\Debug\net7.0\src.AssemblyInfoInputs.cache
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\obj\Debug\net7.0\src.AssemblyInfo.cs
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\obj\Debug\net7.0\src.csproj.CoreCompileInputs.cache
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\obj\Debug\net7.0\src.dll
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\obj\Debug\net7.0\refint\src.dll
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\obj\Debug\net7.0\src.pdb
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\obj\Debug\net7.0\src.genruntimeconfig.cache
+C:\Users\breno\Documents\code\una-lista-02-csharp-202302\src\obj\Debug\net7.0\ref\src.dll

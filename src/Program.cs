@@ -5,9 +5,11 @@ class Program
     static void Main()
     {
       // INVOCA FUNÇÕES SEPARADAMENTE
-      // CalcularDezPorcento();
 
-      ParImpar();
+      // MediaAritmetica();
+      // CalcularDezPorcento();
+      // FahrenheitParaGraus();
+      JurosComposto();
     }
 
     static void MediaAritmetica(double value1, double value2, double media) {
@@ -33,14 +35,32 @@ class Program
       Console.WriteLine($"O valor do produto com 10% de acréscimo é: {newValue:C}");
     }
 
-    static void ParImpar() {
-      Console.Write("Digite o número: ");
+    static void FahrenheitParaGraus() {
+      Console.Write("Digite a temperatura: ");
 
-      double value = Convert.ToDouble(Console.ReadLine());
+      double temperaturaGraus = (Convert.ToDouble(Console.ReadLine()) - 32) / 1.8;
 
-      string result = value > 100 ? "Maior" : "Menor";
+      Console.WriteLine($"A temperatura em graus é: {Math.Round(temperaturaGraus, 1)}ºC");
+    }
 
-      Console.WriteLine(result);
+    static void JurosComposto() {
+
+      Console.Write("Qual o capital aplicado: ");
+      double capital = Convert.ToDouble(Console.ReadLine());
+
+      Console.Write("Qual a taxa de juros (%): ");
+      double i = Convert.ToDouble(Console.ReadLine()) / 100;
+
+      Console.Write("Qual o prazo de aplicação em meses: ");
+      int n = Convert.ToInt32(Console.ReadLine());
+
+      double montante = capital * Math.Pow(1 + i, n); 
+
+      Console.WriteLine($"O seu montante final será {montante:C}");
+    }
+
+    static void SalarioBruto() {
+      
     }
 
 };

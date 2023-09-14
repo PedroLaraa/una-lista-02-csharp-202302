@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\qualidade02\\.nuget\\packages\\": {}
+    "C:\\Users\\breno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qualidade02\\Desktop\\Pedro\\.dev\\una-lista-02-csharp-202302\\src\\src.csproj",
+      "projectUniqueName": "C:\\Users\\breno\\Documents\\code\\una-lista-02-csharp-202302\\src\\src.csproj",
       "projectName": "src",
-      "projectPath": "C:\\Users\\qualidade02\\Desktop\\Pedro\\.dev\\una-lista-02-csharp-202302\\src\\src.csproj",
-      "packagesPath": "C:\\Users\\qualidade02\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\qualidade02\\Desktop\\Pedro\\.dev\\una-lista-02-csharp-202302\\src\\obj\\",
+      "projectPath": "C:\\Users\\breno\\Documents\\code\\una-lista-02-csharp-202302\\src\\src.csproj",
+      "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\breno\\Documents\\code\\una-lista-02-csharp-202302\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\qualidade02\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
